@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book a call with a gerontologist | The Gerontechnology Group</title>
+<meta name="description" content="One pressing technology question about an older parent, answered in one hour by a gerontologist who sells no devices and takes no commissions. Start with a free 30 minute fit call.">
+<link rel="canonical" href="https://book.thegerontechnologygroup.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Gerontechnology Group">
+<meta property="og:title" content="One pressing question. One hour. One clear answer.">
+<meta property="og:description" content="Technology questions about an older parent, answered by a gerontologist who sells no devices and takes no commissions. Start with a free 30 minute fit call.">
+<meta property="og:url" content="https://book.thegerontechnologygroup.com/">
+<meta property="og:image" content="https://book.thegerontechnologygroup.com/assets/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Gerontechnology Group. One pressing question. One hour. One clear answer.">
+<meta name="twitter:card" content="summary_large_image">
+
+<style>
+@font-face{font-family:"Source Sans 3";font-style:normal;font-weight:400;font-display:swap;src:url("assets/fonts/source-sans-3-latin-400-normal.woff2") format("woff2");}
+@font-face{font-family:"Source Sans 3";font-style:normal;font-weight:700;font-display:swap;src:url("assets/fonts/source-sans-3-latin-700-normal.woff2") format("woff2");}
+
+:root{
+  --teal:#005B60;
+  --teal-deep:#00474B;
+  --light-teal:#64D2D8;
+  --gold:#B98C0F;
+  --ink:#23292C;
+  --body:#3A4245;
+  --muted:#5B6367;
+  --hairline:#D9E1E1;
+  --wash:#F3F7F7;
+  --white:#FFFFFF;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{
+  margin:0;
+  font-family:"Source Sans 3","Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+  font-size:19px;
+  line-height:1.6;
+  color:var(--body);
+  background:var(--white);
+}
+.skip{position:absolute;left:-9999px;top:0;background:var(--gold);color:var(--ink);padding:10px 16px;font-weight:700;z-index:10;}
+.skip:focus{left:16px;top:16px;outline:3px solid var(--ink);}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px;}
+.measure{max-width:640px;}
+h1,h2,h3{color:var(--teal);line-height:1.2;margin:0 0 16px;font-weight:700;}
+h1{font-size:44px;letter-spacing:-.01em;}
+h2{font-size:30px;}
+h3{font-size:23px;}
+p{margin:0 0 18px;}
+a{color:var(--teal);text-decoration:underline;text-underline-offset:3px;}
+a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:3px;}
+ul{margin:0 0 18px;padding:0 0 0 24px;}
+li{margin:0 0 10px;}
+strong{color:var(--ink);}
+
+/* masthead */
+.mast{background:var(--teal);color:var(--white);}
+.mast .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:14px 24px;}
+.mast img{display:block;height:88px;width:auto;}
+.mast .where{margin:0;color:var(--light-teal);font-size:19px;font-weight:700;text-align:right;}
+
+/* hero */
+.hero{padding:56px 0 48px;border-bottom:4px solid var(--gold);}
+.eyebrow{display:inline-block;color:var(--teal);font-weight:700;font-size:16px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 14px;}
+.hero .measure{max-width:720px;}
+.hero p.lede{font-size:22px;line-height:1.5;margin-bottom:28px;max-width:640px;}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;margin:0 0 14px;}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:56px;padding:12px 26px;
+  font:inherit;font-weight:700;font-size:19px;line-height:1.25;
+  border-radius:8px;text-decoration:none;
+  border:2px solid var(--teal);
+  cursor:pointer;
+}
+.btn-primary{background:var(--teal);color:var(--white);}
+.btn-primary:hover{background:var(--teal-deep);border-color:var(--teal-deep);}
+.btn-secondary{background:var(--white);color:var(--teal);}
+.btn-secondary:hover{background:var(--wash);}
+.hero .fine{color:var(--muted);font-size:17px;margin:0;}
+
+/* sections */
+section{padding:52px 0;}
+section + section{border-top:1px solid var(--hairline);}
+.wash{background:var(--wash);}
+.questions{list-style:none;padding:0;margin:0 0 24px;}
+.questions li{padding:12px 0 12px 22px;border-left:4px solid var(--gold);margin:0 0 14px;font-size:21px;color:var(--ink);}
+
+/* two paths */
+.paths{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:8px;}
+.card{background:var(--white);border:1px solid var(--hairline);border-top:6px solid var(--teal);padding:30px 30px 26px;display:flex;flex-direction:column;}
+.card.gold{border-top-color:var(--gold);}
+.card .tag{color:var(--muted);font-size:16px;letter-spacing:.06em;text-transform:uppercase;font-weight:700;margin:0 0 6px;}
+.card h3{margin-bottom:6px;}
+.card .price{font-size:30px;font-weight:700;color:var(--teal);margin:0 0 14px;}
+.card .price small{font-size:18px;font-weight:400;color:var(--muted);}
+.card ul{margin-bottom:20px;}
+.card .btn{margin-top:auto;align-self:flex-start;}
+.after{margin-top:26px;}
+
+/* steps */
+.steps{list-style:none;padding:0;margin:0;counter-reset:step;display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px;}
+.steps li{counter-increment:step;margin:0;}
+.steps li::before{
+  content:counter(step);
+  display:inline-flex;align-items:center;justify-content:center;
+  width:44px;height:44px;border-radius:50%;
+  background:var(--teal);color:var(--white);font-weight:700;font-size:21px;
+  margin-bottom:12px;
+}
+.steps h3{font-size:21px;margin-bottom:6px;}
+.steps p{margin:0;}
+
+/* bio */
+.bio{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;}
+.bio .cred{font-size:22px;font-weight:700;color:var(--ink);margin:0 0 4px;}
+.bio .role{color:var(--muted);margin:0 0 18px;}
+.facts{list-style:none;padding:0;margin:0 0 20px;}
+.facts li{padding-left:22px;position:relative;}
+.facts li::before{content:"";position:absolute;left:0;top:13px;width:9px;height:9px;border-radius:50%;background:var(--gold);}
+
+/* close + footer */
+.close{background:var(--teal);color:var(--white);padding:56px 0;}
+.close h2{color:var(--white);}
+.close p{color:#E6F4F4;font-size:21px;}
+.close .btn-primary{background:var(--white);color:var(--teal);border-color:var(--white);}
+.close .btn-primary:hover{background:#E6F4F4;border-color:#E6F4F4;}
+.close .btn-secondary{background:transparent;color:var(--white);border-color:var(--white);}
+.close .btn-secondary:hover{background:rgba(255,255,255,.12);}
+.close .email{color:var(--white);font-size:19px;margin:18px 0 0;}
+.close .email a{color:var(--white);font-weight:700;}
+footer{border-top:4px solid var(--gold);padding:34px 0 44px;font-size:17px;color:var(--muted);}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;}
+footer p{margin:0 0 4px;}
+footer .name{font-weight:700;color:var(--teal);font-size:19px;}
+footer .links{text-align:right;}
+footer a{color:var(--teal);}
+
+@media (max-width:760px){
+  body{font-size:18px;}
+  h1{font-size:32px;}
+  h2{font-size:26px;}
+  .hero{padding:40px 0 36px;}
+  .hero p.lede{font-size:20px;}
+  .mast .wrap{flex-direction:column;align-items:flex-start;gap:8px;padding:14px 20px;}
+  .mast img{height:72px;max-width:100%;}
+  .mast .where{text-align:left;}
+  .wrap{padding:0 20px;}
+  section{padding:40px 0;}
+  .cta-row{flex-direction:column;}
+  .btn{width:100%;}
+  .paths,.steps,.bio{grid-template-columns:1fr;gap:22px;}
+  .card{padding:24px 22px 22px;}
+  .card .btn{align-self:stretch;}
+  .questions li{font-size:19px;}
+  footer .wrap{flex-direction:column;}
+  footer .links{text-align:left;}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="mast">
+  <div class="wrap">
+    <a href="https://www.thegerontechnologygroup.com" style="display:block"><img src="assets/logo.png" alt="The Gerontechnology Group"></a>
+    <p class="where">Houston, TX &middot; Video or phone, nationwide</p>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="measure">
+        <p class="eyebrow">For families of older adults</p>
+        <h1>One pressing question. One hour. One clear answer.</h1>
+        <p class="lede">Bring the technology question that keeps circling. Leave with an answer you can act on, in writing, from a gerontologist with 15+ years across home care, memory support, assisted living, and hospice. Nothing is sold, and no company pays for the recommendation.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:melissa@thegerontechnologygroup.com?subject=Free%2030%20minute%20fit%20call&amp;body=My%20question%20is%3A%20%0A%0AWho%20it%20is%20about%20(for%20example%2C%20my%20mother%2C%2082%2C%20lives%20alone)%3A%20%0A%0AGood%20times%20to%20talk%2C%20with%20time%20zone%3A%20%0A">Schedule a free 30 minute fit call</a>
+          <a class="btn btn-secondary" href="mailto:melissa@thegerontechnologygroup.com?subject=Technology%20Triage%20Call&amp;body=My%20question%20is%3A%20%0A%0AWho%20it%20is%20about%20(for%20example%2C%20my%20mother%2C%2082%2C%20lives%20alone)%3A%20%0A%0AGood%20times%20to%20talk%2C%20with%20time%20zone%3A%20%0A">Book the Technology Triage Call</a>
+        </div>
+        <p class="fine">Both open an email to melissa@thegerontechnologygroup.com. You will hear back with available times.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="measure">
+        <h2>The question that will not settle</h2>
+        <ul class="questions">
+          <li>Mom keeps missing doses. Is a pill dispenser the answer, or a different routine?</li>
+          <li>Dad is alone most of the day. Do those companionship devices actually help?</li>
+          <li>She stopped driving. What are the real options for getting around?</li>
+          <li>Is the camera your brother installed helping her, or just watching her?</li>
+          <li>Is the device in every ad actually worth it?</li>
+        </ul>
+        <p>Most families do not need a full technology plan. They need one good answer to one pressing question, so everyone can stop circling and decide.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wash">
+    <div class="wrap">
+      <h2>Two ways to start</h2>
+      <p class="measure">Not sure which one fits? Start with the free call. That is what it is for.</p>
+      <div class="paths">
+        <article class="card">
+          <p class="tag">Start here</p>
+          <h3>Free 30 minute fit call</h3>
+          <p class="price">Free <small>&middot; no obligation</small></p>
+          <p>Thirty minutes to hear your question and tell you honestly whether one call will answer it, or whether something smaller would do.</p>
+          <ul>
+            <li>Video or phone, your choice.</li>
+            <li>You leave knowing what the Triage Call would and would not cover for you.</li>
+            <li>If you do not need it, you will hear that too.</li>
+          </ul>
+          <a class="btn btn-primary" href="mailto:melissa@thegerontechnologygroup.com?subject=Free%2030%20minute%20fit%20call&amp;body=My%20question%20is%3A%20%0A%0AWho%20it%20is%20about%20(for%20example%2C%20my%20mother%2C%2082%2C%20lives%20alone)%3A%20%0A%0AGood%20times%20to%20talk%2C%20with%20time%20zone%3A%20%0A">Schedule the free call</a>
+        </article>
+        <article class="card gold">
+          <p class="tag">The answer, in writing</p>
+          <h3>The Technology Triage Call</h3>
+          <p class="price">$249 <small>&middot; one time</small></p>
+          <p>One call, one written summary, no ongoing commitment.</p>
+          <ul>
+            <li><strong>A 60 minute call with Dr. Mansfield</strong>, video or phone, focused entirely on your question.</li>
+            <li><strong>A one page written action summary</strong> within two business days, clear enough to hand to the rest of the family.</li>
+            <li><strong>Specific product and resource recommendations</strong> where they fit your situation.</li>
+          </ul>
+          <a class="btn btn-secondary" href="mailto:melissa@thegerontechnologygroup.com?subject=Technology%20Triage%20Call&amp;body=My%20question%20is%3A%20%0A%0AWho%20it%20is%20about%20(for%20example%2C%20my%20mother%2C%2082%2C%20lives%20alone)%3A%20%0A%0AGood%20times%20to%20talk%2C%20with%20time%20zone%3A%20%0A">Book the Triage Call</a>
+        </article>
+      </div>
+      <p class="measure after">If your question turns out to be the start of a bigger conversation, you will hear that on the call, along with what it would involve. There is no package to buy first.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="measure">
+        <h2>Independent, on purpose</h2>
+        <p>The Gerontechnology Group does not sell devices and does not accept commissions, referral fees, or placement payments from vendors. When a product shows up in your summary, it is there because it fits your situation. When the right answer is "you do not need anything new," that is the answer you get.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wash">
+    <div class="wrap">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li>
+          <h3>Send a sentence</h3>
+          <p>Use either button above, or email melissa@thegerontechnologygroup.com with one sentence about your question. No forms.</p>
+        </li>
+        <li>
+          <h3>Pick a time</h3>
+          <p>You will hear back with available times. Video or phone, whichever is easier for you.</p>
+        </li>
+        <li>
+          <h3>Talk, then read</h3>
+          <p>The call happens. If it is the Triage Call, your one page written summary arrives within two business days.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="bio">
+        <div>
+          <h2>Who you will talk with</h2>
+          <p class="cred">Dr. Melissa Mansfield, PhD, NAPG-CPG&trade;</p>
+          <p class="role">Founder &amp; CEO, The Gerontechnology Group, LLC</p>
+          <p>A gerontologist, not a salesperson. The recommendation comes from experience with older adults and their families, not from a product catalog.</p>
+        </div>
+        <div>
+          <ul class="facts">
+            <li>15+ years across home care, memory support, assisted living, and hospice.</li>
+            <li>PhD in Gerontology and Leadership, Concordia University Chicago, 2025.</li>
+            <li>CPG certified since 2015.</li>
+            <li>Doctoral research published in <em>Innovation in Aging</em> examining how pet companionship mitigates social isolation and loneliness among older women.</li>
+            <li>Presenting that research at the Gerontological Society of America annual meeting, November 2026.</li>
+          </ul>
+          <p><a href="https://www.thegerontechnologygroup.com/families/">Read how other families worked through their questions</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="close">
+    <div class="wrap">
+      <div class="measure">
+        <h2>Put the question down this week</h2>
+        <p>One email is enough to start. You will hear back with times.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:melissa@thegerontechnologygroup.com?subject=Free%2030%20minute%20fit%20call&amp;body=My%20question%20is%3A%20%0A%0AWho%20it%20is%20about%20(for%20example%2C%20my%20mother%2C%2082%2C%20lives%20alone)%3A%20%0A%0AGood%20times%20to%20talk%2C%20with%20time%20zone%3A%20%0A">Schedule a free 30 minute fit call</a>
+          <a class="btn btn-secondary" href="mailto:melissa@thegerontechnologygroup.com?subject=Technology%20Triage%20Call&amp;body=My%20question%20is%3A%20%0A%0AWho%20it%20is%20about%20(for%20example%2C%20my%20mother%2C%2082%2C%20lives%20alone)%3A%20%0A%0AGood%20times%20to%20talk%2C%20with%20time%20zone%3A%20%0A">Book the Technology Triage Call</a>
+        </div>
+        <p class="email">Or write directly: <a href="mailto:melissa@thegerontechnologygroup.com">melissa@thegerontechnologygroup.com</a></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <p class="name">Dr. Melissa Mansfield, PhD, NAPG-CPG&trade;</p>
+      <p>Founder &amp; CEO, The Gerontechnology Group, LLC</p>
+      <p>Houston, TX</p>
+    </div>
+    <div class="links">
+      <p><a href="mailto:melissa@thegerontechnologygroup.com">melissa@thegerontechnologygroup.com</a></p>
+      <p><a href="https://www.thegerontechnologygroup.com">www.thegerontechnologygroup.com</a></p>
+      <p><a href="https://mippy1974.github.io/privacy/">Privacy &amp; Legal</a></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
