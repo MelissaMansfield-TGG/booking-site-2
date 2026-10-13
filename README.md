@@ -54,5 +54,5 @@ Open `index.html` on github.com, click the pencil icon, change the text, and com
 
 ## What the page does not do
 
-- No analytics. If you want to know how many people visit, GitHub Pages will not tell you. A privacy respecting counter such as GoatCounter or Plausible can be added with one line later.
-- No scheduler. Every button opens an email with the subject and a three line template already filled in. A Calendly or similar link can replace the `mailto:` links without touching the design.
+- Visit counting uses GoatCounter (site code gtg, dashboard at gtg.goatcounter.com). It uses no cookies and stores no personal information. It is the only outside request the page makes.
+- Booking runs through Calendly. The free fit call and the paid Technology Triage Call buttons link to the Calendly event pages. Two email links remain as a backup.
